@@ -1,0 +1,16 @@
+user:
+  jdbc:
+    driverClassName: ""
+    url: ""
+    username: ""
+    password: ""
+product:
+  jdbc:
+    driverClassName: ""
+    url: ""
+    username: ""
+    password: ""
+hibernate:
+  hbm2ddl:
+    auto: "create"
+  dialect: ""

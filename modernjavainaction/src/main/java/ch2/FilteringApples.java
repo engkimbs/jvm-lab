@@ -1,10 +1,10 @@
-package modernjavainaction.ch2;
+package ch2;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static modernjavainaction.ch2.Color.*;
+import static ch2.Color.*;
 
 public class FilteringApples {
 

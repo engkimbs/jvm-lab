@@ -1,6 +1,6 @@
-package modernjavainaction.ch2;
+package ch2;
 
-import static modernjavainaction.ch2.Color.GREEN;
+import static ch2.Color.GREEN;
 
 public class AppleGreenColorPredicate implements ApplePredicate {
     public boolean test(Apple apple) {

@@ -1,4 +1,4 @@
-package springjpa;
+package com.example.springjpa;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -28,10 +28,10 @@ public class PersistanceJPAConfig {
 
     @Bean
     public DataSource dataSource(){
-        driverClassName = "";
-        url = "";
-        userName = "";
-        password = "";
+        driverClassName = "org.mariadb.jdbc.Driver";
+        url = "jdbc:mariadb://dflow.cksd3vm8f9ob.ap-northeast-2.rds.amazonaws.com:3306/tutorial";
+        userName = "admin";
+        password = "tofhql12!";
 
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(driverClassName);

@@ -1,4 +1,4 @@
-package springjpa;
+package com.example.springjpa;
 
 import java.util.List;
 

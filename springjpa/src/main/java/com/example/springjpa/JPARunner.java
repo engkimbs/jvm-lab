@@ -1,4 +1,4 @@
-package springjpa;
+package com.example.springjpa;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;

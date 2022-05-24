@@ -1,7 +1,4 @@
-package modernjavainaction.ch2;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
+package ch2;
 
 public class Apple extends Fruit {
     public Apple(Color color, Double weight) {

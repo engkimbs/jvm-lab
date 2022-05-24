@@ -1,4 +1,4 @@
-package springjpa;
+package com.example.springjpa;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

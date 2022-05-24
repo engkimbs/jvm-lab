@@ -1,4 +1,4 @@
-package modernjavainaction.ch2;
+package ch2;
 
 public enum Color {
     GREEN, RED
