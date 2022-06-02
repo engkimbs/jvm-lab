@@ -1,4 +1,4 @@
-package ch2;
+package threadcreation;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

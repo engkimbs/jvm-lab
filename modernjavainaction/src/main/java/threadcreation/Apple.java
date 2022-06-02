@@ -1,4 +1,4 @@
-package ch2;
+package threadcreation;
 
 public class Apple extends Fruit {
     public Apple(Color color, Double weight) {

@@ -3,14 +3,12 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="springjpa" />
-        <module name="modernjavainaction" />
-      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="simple-kafka-producer" target="11" />
+      <module name="simple-kafka-producer.main" target="11" />
+      <module name="simple-kafka-producer.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

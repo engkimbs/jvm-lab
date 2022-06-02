@@ -1,6 +1,6 @@
-package ch2;
+package threadcreation;
 
-import static ch2.Color.GREEN;
+import static threadcreation.Color.GREEN;
 
 public class AppleGreenColorPredicate implements ApplePredicate {
     public boolean test(Apple apple) {

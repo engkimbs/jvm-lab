@@ -1,10 +1,10 @@
-package ch2;
+package threadcreation;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static ch2.Color.*;
+import static threadcreation.Color.*;
 
 public class FilteringApples {
 

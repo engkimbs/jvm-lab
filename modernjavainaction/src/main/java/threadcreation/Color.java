@@ -1,4 +1,4 @@
-package ch2;
+package threadcreation;
 
 public enum Color {
     GREEN, RED

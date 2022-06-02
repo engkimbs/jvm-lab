@@ -1,4 +1,4 @@
-package ch2;
+package threadcreation;
 
 public class AppleHeavyWeightPredicate implements ApplePredicate {
     public boolean test(Apple apple) {
