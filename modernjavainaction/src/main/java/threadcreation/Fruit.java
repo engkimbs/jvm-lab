@@ -1,11 +1,20 @@
 package threadcreation;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 
-@Data
-@AllArgsConstructor
+@Getter
+@Setter
+@ToString
 public class Fruit {
     Color color;
     Double weight;
+
+    public Fruit(Color color, Double weight) {
+        this.color = color;
+        this.weight = weight;
+    }
+
+    Fruit(Double weight) {
+        this.weight = weight;
+    }
 }
